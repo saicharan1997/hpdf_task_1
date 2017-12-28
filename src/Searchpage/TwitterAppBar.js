@@ -85,7 +85,7 @@ class TwitterAppBar extends Component{
                             </i>
                         </Grid>
                         <Grid item xs={2} className="searchMe" style={{display:"flex",justifyContent:"center",alignItems:"center",marginLeft:"150px"}}>
-                            <input type="text" value={this.props.searchString} className="navSearch" placeholder="Search Twitter" spellCheck="false" autoComplete="false" onKeyPress={this.searchIt} onChange={evt=>this.updateInputVal(evt)}
+                            <input type="text" value={this.props.searchQuery} className="navSearch" placeholder="Search Twitter" spellCheck="false" autoComplete="false" onKeyPress={this.searchIt} onChange={evt=>this.updateInputVal(evt)}
                             />
                             <span className="fa fa-search" aria-hidden="true" style={{paddingRight:"20px"}}>
                             </span>
