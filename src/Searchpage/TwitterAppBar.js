@@ -9,6 +9,8 @@ import 'font-awesome/css/font-awesome.min.css';
 import Tabs, { Tab } from 'material-ui/Tabs';
 import {Redirect} from 'react-router-dom';
 import mydp from '../assets/images/profilepic/mydp.png';
+import MoreVertIcon from 'material-ui-icons/MoreVert';
+import IconButton from 'material-ui/IconButton';
 
 const styles={
     tweetButton:{
@@ -122,6 +124,9 @@ class TwitterAppBar extends Component{
                             <Tab label="News" style={{minWidth:0,textDecoration:"none",fontFamily:'Segoe UI'}}/>
                             <Tab label="Broadcasts" style={{minWidth:0,textDecoration:"none",fontFamily:'Segoe UI'}}/>
                         </Tabs>
+                        <IconButton style={{marginLeft:"445px"}}>
+                <MoreVertIcon />
+              </IconButton>
                     </Grid>
                 </Grid>
             </div>
