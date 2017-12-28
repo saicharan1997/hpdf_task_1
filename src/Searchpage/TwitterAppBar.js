@@ -15,11 +15,14 @@ const styles={
         backgroundColor: "#1da1f2",
         color:"#ffffff",
         padding: 0,
-        minHeight: "38px",
+        minHeight: "33px",
+        minWidth:"73px",
         border: "1px solid",
-        borderRadius: "20px",
+        borderRadius: 50,
         textTransform:"none",
-        fontSize:"13px"
+        fontSize:"14px",
+        marginTop:4,
+        fontWeight:600,    
     },
 };
 
