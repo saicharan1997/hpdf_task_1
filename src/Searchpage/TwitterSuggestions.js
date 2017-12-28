@@ -66,7 +66,7 @@ class TwitterSuggestions extends Component{
                                                   </Typography>
                                               </Grid>
                                               <Grid item style={{cursor: "pointer",display:"flex",alignItems:"center",paddingLeft:20}}>
-                                                  <i class="fa fa-window-close" aria-hidden="false"></i>
+                                                  <i class="fa fa-close" aria-hidden="false" style={{fontSize:"10px",marginLeft:20,fontWeight:200,color:"grey"}}></i>
                                               </Grid>
                                           </Grid>
                                       </Grid>
@@ -105,8 +105,8 @@ class TwitterSuggestions extends Component{
                                                       @Firstpost&nbsp;
                                                   </Typography>
                                               </Grid>
-                                              <Grid item style={{cursor: "pointer",display:"flex",alignItems:"center",paddingLeft:20}}>
-                                                  <i class="fa fa-window-close" aria-hidden="false"></i>
+                                              <Grid item style={{cursor: "pointer",display:"flex",alignItems:"center",paddingLeft:32}}>
+                                                  <i class="fa fa-close" aria-hidden="false" style={{fontSize:"10px",marginLeft:20,fontWeight:200,color:"grey"}}></i>
                                               </Grid>
                                               
                                           </Grid>
@@ -146,8 +146,8 @@ class TwitterSuggestions extends Component{
                                                       @ZeeNews
                                                   </Typography>
                                               </Grid>
-                                              <Grid item style={{cursor: "pointer",display:"flex",alignItems:"center",paddingLeft:20}}>
-                                                  <i class="fa fa-window-close" aria-hidden="false"></i>
+                                              <Grid item style={{cursor: "pointer",display:"flex",alignItems:"center",paddingLeft:28}}>
+                                                  <i class="fa fa-close" aria-hidden="false" style={{fontSize:"10px",marginLeft:20,fontWeight:200,color:"grey"}}></i>
                                               </Grid>
                                           </Grid>
                                       </Grid>
@@ -185,8 +185,8 @@ class TwitterSuggestions extends Component{
                                                       @CNNnews18
                                                   </Typography>
                                               </Grid>
-                                              <Grid item style={{cursor: "pointer",display:"flex",alignItems:"center",paddingLeft:20}}>
-                                                  <i class="fa fa-window-close" aria-hidden="false"></i>
+                                              <Grid item style={{cursor: "pointer",display:"flex",alignItems:"center",paddingLeft:22}}>
+                                                  <i class="fa fa-close" aria-hidden="false" style={{fontSize:"10px",marginLeft:20,fontWeight:200,color:"grey"}}></i>
                                               </Grid>
                                           </Grid>
                                       </Grid>
@@ -203,7 +203,7 @@ class TwitterSuggestions extends Component{
                   </Grid>
                 </Grid>
                 
-                <Grid item>
+                <Grid item style={{paddingTop:15,paddingLeft:10,paddingBottom:15}}>
 					
 					<Typography type="caption">
 						<Tooltip id="tooltip-dp" title="Find people you know" placement="top">
