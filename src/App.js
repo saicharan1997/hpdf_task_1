@@ -14,12 +14,12 @@ const styles={
   }
 };
 
-
 class App extends Component {
   render() {
       const classes = this.props.classes;
     return (
-        <Grid container justify="center" spacing={24} style={{marginTop:"30px"}}>
+    <div style={{width:"95em"}}>
+        <Grid container justify="center" spacing={24}>
             <Grid item xs={12}>
                  <TwitterAppBar/>
             </Grid>
@@ -37,6 +37,7 @@ class App extends Component {
                 </Grid>
             </Grid>
         </Grid>
+      </div>
     );
   }
 }
