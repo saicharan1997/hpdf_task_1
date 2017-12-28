@@ -26,11 +26,12 @@ class Search extends Component {
     render() {
         const classes = this.props.classes;
         return (
+        <div style={{width:"95em"}}>
             <Grid container justify="center" spacing={24}>
                 <Grid item xs={12}>
                     <TwitterAppBar searchQuery={this.state.query}/>
                 </Grid>
-                <Grid item xs={10}>
+                <Grid item xs={9}>
                     <Grid container spacing={24}>
                         <Grid item xs={3} className={classes.dummyHeight}>
                             <LeftSidePanel/>
@@ -44,6 +45,7 @@ class Search extends Component {
                     </Grid>
                 </Grid>
             </Grid>
+            </div>
         );
     }
 }
