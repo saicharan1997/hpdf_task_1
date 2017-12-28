@@ -56,11 +56,11 @@ text-decoration: none;
 .navSearch{
   display: block;
   outline: 0;
-  width: 100%;
+  width: 82%;
   height: 65%;
   background-color: #f5f8fa;
   border: 1px solid #e6ecf0;
-  border-radius: 40px;
+  border-radius: 41px;
   font-size: 12px;
   color: #14171a;
   padding-left: 10px;
