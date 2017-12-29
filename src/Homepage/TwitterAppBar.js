@@ -63,7 +63,7 @@ class TwitterAppBar extends Component{
         const classes = this.props.classes;
         return(
             <div>
-                <AppBar position="static" style={{backgroundColor:"#ffffff"}}>
+                <AppBar position="fixed" style={{backgroundColor:"#ffffff"}}>
                     <Grid container direction="row" spacing={0}>
                         <Grid item xs={1} style={{marginLeft:"60px"}}>
                         </Grid>
