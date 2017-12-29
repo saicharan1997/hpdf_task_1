@@ -23,7 +23,7 @@ class App extends Component {
             <Grid item xs={12}>
                  <TwitterAppBar/>
             </Grid>
-            <Grid item xs={9}>
+            <Grid item xs={9} style={{marginTop:"43px"}}>
                 <Grid container spacing={24}>
                     <Grid item xs={3} className={classes.dummyHeight}>
                         <LeftSidePanel/>
