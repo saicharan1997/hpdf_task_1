@@ -70,7 +70,8 @@ class TwitterAppBar extends Component{
         const classes = this.props.classes;
         return(
             <div>
-                <AppBar position="static" style={{backgroundColor:"#ffffff"}}>
+				<AppBar position="fixed" style={{backgroundColor:"#e6ecf0"}}>
+                <AppBar position="fixed" style={{backgroundColor:"#ffffff"}}>
                     <Grid container direction="row" spacing={0}>
                         <Grid item xs={1} style={{marginLeft:"60px"}}>
                         </Grid>
@@ -104,11 +105,11 @@ class TwitterAppBar extends Component{
                         </Grid>  
                     </Grid>
                 </AppBar>
-                <Grid container style={{height:"4em",backgroundColor:"#1DA1F2",marginTop:"1px"}}>
+                <Grid container style={{height:"4em",backgroundColor:"#1DA1F2",marginTop:"46px",marginBottom:"8px"}}>
                     <Grid item xs={1} style={{marginLeft:"60px"}}></Grid>
                     <Grid item xs={10} style={{display:"flex",alignItems:"center"}}>
-                        <Typography type="display1" style={{color:"#ffffff",textDecoration:"none",fontFamily:'Segoe UI'}}>
-                            {this.props.searchQuery}
+                        <Typography type="display1" style={{color:"#ffffff",textDecoration:"none",fontFamily:'Segoe UI',fontSize:"27px"}}>
+                            <b>{this.props.searchQuery}</b>
                         </Typography>
                     </Grid>
                 </Grid>
@@ -129,6 +130,7 @@ class TwitterAppBar extends Component{
               </IconButton>
                     </Grid>
                 </Grid>
+                </AppBar>
             </div>
         )
     }
