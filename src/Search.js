@@ -31,7 +31,7 @@ class Search extends Component {
                 <Grid item xs={12}>
                     <TwitterAppBar searchQuery={this.state.query}/>
                 </Grid>
-                <Grid item xs={9}>
+                <Grid item xs={9} style={{marginTop:"165px"}}>
                     <Grid container spacing={24}>
                         <Grid item xs={3} className={classes.dummyHeight}>
                             <LeftSidePanel/>
